@@ -95,11 +95,11 @@ const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
 
 // arbitrum goerli v3 addresses
 const ARBITRUM_GOERLI_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x4893376342d5D7b3e31d4184c08b265e5aB2A3f6',
+  v3CoreFactoryAddress: '0x95E03F25CEf2b427Be5067F07281532E74Fe6dd6',
   multicallAddress: '0x8260CB40247290317a4c062F3542622367F206Ee',
-  quoterAddress: '0x1dd92b83591781D0C6d98d07391eea4b9a6008FA',
+  quoterAddress: '0x69eF64C8B2275161b471C6c7b9306feCa5C223e0',
   v3MigratorAddress: '0xA815919D2584Ac3F76ea9CB62E6Fd40a43BCe0C3',
-  nonfungiblePositionManagerAddress: '0x622e4726a167799826d1E1D150b076A7725f5D81',
+  nonfungiblePositionManagerAddress: '0xA000ffD704b9E588C24A42bE9a7FeF5067c29E55',
   tickLensAddress: '0xb52429333da969a0C79a60930a4Bf0020E5D1DE8'
 }
 
@@ -264,5 +264,5 @@ export const SWAP_ROUTER_02_ADDRESSES = (chainId: number) => {
   if (chainId == ChainId.BNB) {
     return CHAIN_TO_ADDRESSES_MAP[chainId].swapRouter02Address
   }
-  return '0x57dda00d180cd11D5375A5e1320aa04c7D218648'
+  return '0x7b7cF363f06c7518Fc0E6496503c4C7E6041BE3c'
 }
