@@ -34,7 +34,7 @@ export const UNISWAP_NFT_AIRDROP_CLAIM_ADDRESS = '0x8B799381ac40b838BBA4131ffB26
 
 export const V2_FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
-export const V2_ROUTER_ADDRESS = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
+export const V2_ROUTER_ADDRESS = '0x7b7cF363f06c7518Fc0E6496503c4C7E6041BE3c'
 export const V2_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap(V2_ROUTER_ADDRESS)
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
@@ -95,7 +95,7 @@ const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
 
 // arbitrum goerli v3 addresses
 const ARBITRUM_GOERLI_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x95E03F25CEf2b427Be5067F07281532E74Fe6dd6',
+  v3CoreFactoryAddress: '0x6ae72fcD2DEa48930Ed5cd4766153B60255C2950',
   multicallAddress: '0x8260CB40247290317a4c062F3542622367F206Ee',
   quoterAddress: '0x69eF64C8B2275161b471C6c7b9306feCa5C223e0',
   v3MigratorAddress: '0xA815919D2584Ac3F76ea9CB62E6Fd40a43BCe0C3',

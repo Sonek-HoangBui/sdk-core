@@ -16,7 +16,7 @@ export declare const UNI_ADDRESSES: AddressMap;
 export declare const UNISWAP_NFT_AIRDROP_CLAIM_ADDRESS = "0x8B799381ac40b838BBA4131ffB26197C432AFe78";
 export declare const V2_FACTORY_ADDRESS = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f";
 export declare const V2_FACTORY_ADDRESSES: AddressMap;
-export declare const V2_ROUTER_ADDRESS = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
+export declare const V2_ROUTER_ADDRESS = "0x7b7cF363f06c7518Fc0E6496503c4C7E6041BE3c";
 export declare const V2_ROUTER_ADDRESSES: AddressMap;
 export declare const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>;
 export declare const V3_CORE_FACTORY_ADDRESSES: AddressMap;
